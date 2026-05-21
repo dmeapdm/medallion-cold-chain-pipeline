@@ -1,12 +1,14 @@
 # Architecture diagram guide
 
 ## Diagram flow
-###[Data Generation & Streaming]
+```text
+[Data Generation & Streaming]
 Simulator IoT (VS Code - Python) ──> Azure IoT Hub ──> Azure Stream Analytics ──> Raw telemetry (JSON)
 
-###[Medallion Processing & Analytics]
+[Medallion Processing & Analytics]
 Raw telemetry (JSON) + Metadata (CSV) ──> Bronze Ingestion ──> Silver (Validation & Enrichment) ──> Gold (Alerts & Reporting) ──> Dashboard/report Consumers
 
+``` 
 ## Components to show
 
 * telemetry source files in JSON
