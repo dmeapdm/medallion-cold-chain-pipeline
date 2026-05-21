@@ -15,7 +15,7 @@ It is worth noting that for incubators, thermal control can be performed periodi
 
 The second phase of the project was directed toward transforming isolated thermal mapping into a continuous monitoring system capable of ingesting, validating, transforming, and analyzing temperature data from digital sensors connected to a cloud infrastructure.
 
-To achieve this, a data architecture based on the Medallion pattern was deployed within the `biodataengineeringlabs` storage account by creating bronze, silver, and gold containers. This structure organizes data according to its processing maturity: raw data in the Bronze layer, validated and enriched data in the Silver layer, and finalized analytical reports in the Gold layer.
+To achieve this, a data architecture based on the Medallion pattern was deployed within the `my_storage_account` storage account by creating bronze, silver, and gold containers. This structure organizes data according to its processing maturity: raw data in the Bronze layer, validated and enriched data in the Silver layer, and finalized analytical reports in the Gold layer.
 
 * **Bronze Layer:** Stores telemetry records in raw JSON format, partitioned or organized by generation date and time.
 * **Silver Layer:** Defines dedicated directories for storing corrupted/rejected records, validated telemetry (stored as Delta tables), and sensor metadata. This metadata contains critical context such as sensor identifiers, locations, minimum/maximum temperature thresholds, and assigned personnel.
