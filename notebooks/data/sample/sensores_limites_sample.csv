@@ -1,4 +1,0 @@
-SensorID,Ubicacion,TempMin,TempMax,Responsable
-Temp_Sensor_01,Camara de vacunas,2.0,8.0,Ana Perez
-Temp_Sensor_02,Heladera de laboratorio,2.0,6.0,Carlos Diaz
-Temp_Sensor_03,Freezer de muestras,-5.0,0.0,Lucia Gomez
