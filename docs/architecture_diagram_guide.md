@@ -2,6 +2,13 @@
 
 ## Diagram flow
 [Data Generation & Streaming]
+Simulator IoT (VS Code - Python) ──> Azure IoT Hub ──> Azure Stream Analytics ──> Raw telemetry (JSON)
+
+[Medallion Processing & Analytics]
+Raw telemetry (JSON) + Metadata (CSV) ──> Bronze Ingestion ──> Silver (Validation & Enrichment) ──> Gold (Alerts & Reporting) ──> Dashboard/Consumers
+
+
+[Data Generation & Streaming]
 Simulator temperature IoT (VS Code - Python) -> Azure IoT Hub -> Azure Stream Analytics -> Raw telemetry JSON
 
 [Medallion Processing & Analytics]
