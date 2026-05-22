@@ -12,9 +12,9 @@ Cold chain monitoring is critical in biomedical environments because temperature
 
 The project follows the Medallion pattern:
 
-* Bronze: ingest raw telemetry JSON and sensor metadata CSV
-* Silver: apply data quality rules, reject invalid records, and enrich telemetry with metadata
-* Gold: classify alerts, calculate deviations, summarize sensor behavior, and prepare visualization-ready outputs
+* 🟤 Bronze: ingest raw telemetry JSON and sensor metadata CSV
+* ⚪ Silver: apply data quality rules, reject invalid records, and enrich telemetry with metadata
+* 🟡 Gold: classify alerts, calculate deviations, summarize sensor behavior, and prepare visualization-ready outputs
 
 ## Repository structure
 
@@ -33,8 +33,10 @@ medallion-cold-chain-pipeline/
 │       ├── alert_summary_sample.csv
 │       └── gold_report_sample.csv
 ├── images/
-│   ├── architecture.png
-│   ├── gold_report_sample.png
+│   ├── Architecture_diagram_flow.png
+│   ├── Azure_Storage_Account.drawio.png
+│   ├── detailed_temperature_report_delta.png
+│   ├── read_&_display_data.png
 │   └── sensor_trend_sample.png
 ├── docs/
 │   ├── architecture_diagram_guide.md
