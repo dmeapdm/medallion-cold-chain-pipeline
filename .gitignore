@@ -1,0 +1,21 @@
+# Extensiones de Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Diagramas editables locales
+images/*.drawio
+
+# Archivos de prueba locales del laboratorio (No subir a GitHub)
+output/sample/Count_stateAlerts.csv
+output/sample/Gold_report_sensors.csv
+output/sample/table_validated_report_stateAlert&Desv.csv

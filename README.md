@@ -12,14 +12,14 @@ Cold chain monitoring is critical in biomedical environments because temperature
 
 The project follows the Medallion pattern:
 
-* 🟤 Bronze: ingest raw telemetry JSON and sensor metadata CSV
-* ⚪ Silver: apply data quality rules, reject invalid records, and enrich telemetry with metadata
-* 🟡 Gold: classify alerts, calculate deviations, summarize sensor behavior, and prepare visualization-ready outputs
+* Bronze: ingest raw telemetry JSON and sensor metadata CSV
+* Silver: apply data quality rules, reject invalid records, and enrich telemetry with metadata
+* Gold: classify alerts, calculate deviations, summarize sensor behavior, and prepare visualization-ready outputs
 
 ## Repository structure
 
 ```text
-medallion-cold-chain-pipeline/
+SenseTemp-Portfolio/
 ├── notebooks/
 │   ├── 01_bronze_ingestion.ipynb
 │   ├── 02_silver_quality_enrichment.ipynb
@@ -28,20 +28,17 @@ medallion-cold-chain-pipeline/
 │   └── sample/
 │       ├── telemetry_sample.json
 │       └── sensores_limites_sample.csv
-├── output/
+├── outputs/
 │   └── sample/
 │       ├── alert_summary_sample.csv
 │       └── gold_report_sample.csv
 ├── images/
-│   ├── Architecture_diagram_flow.png
-│   ├── Azure_Storage_Account.drawio.png
-│   ├── detailed_temperature_report_delta.png
-│   ├── read_&_display_data.png
+│   ├── architecture.png
+│   ├── gold_report_sample.png
 │   └── sensor_trend_sample.png
 ├── docs/
-│   ├── architecture_diagram_guide.md
-│   ├── functional_specifications.md
-│   └── repository_descriptions.md
+│   ├── github_publication_steps.md
+│   └── what_to_export_checklist.md
 └── README.md
 ```
 
