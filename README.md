@@ -28,7 +28,7 @@ medallion-cold-chain-pipeline/
 │   └── sample/
 │       ├── telemetry_sample.json
 │       └── sensores_limites_sample.csv
-├── outputs/
+├── output/
 │   └── sample/
 │       ├── alert_summary_sample.csv
 │       └── gold_report_sample.csv
