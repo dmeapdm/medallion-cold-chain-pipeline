@@ -1,0 +1,4 @@
+SensorID,Ubicacion,TotalLecturas,LecturasEnRango,LecturasBajas,LecturasAltas,TempPromedio,TempMinObservada,TempMaxObservada,LimiteMin,LimiteMax,TieneAlertas
+Temp_Sensor_01,Camara de vacunas,4,3,1,0,3.60,1.50,4.90,2.00,8.00,SI
+Temp_Sensor_02,Heladera de laboratorio,4,3,0,1,6.10,4.70,8.40,2.00,6.00,SI
+Temp_Sensor_03,Freezer de muestras,4,3,0,1,1.70,0.00,2.40,-5.00,0.00,SI
