@@ -37,8 +37,9 @@ medallion-cold-chain-pipeline/
 │   ├── gold_report_sample.png
 │   └── sensor_trend_sample.png
 ├── docs/
-│   ├── github_publication_steps.md
-│   └── what_to_export_checklist.md
+│   ├── architecture_diagram_guide.md
+│   ├── functional_specifications.md
+│   └── repository_descriptions.md
 └── README.md
 ```
 
