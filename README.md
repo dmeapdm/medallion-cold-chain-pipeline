@@ -26,6 +26,7 @@ SenseTemp-Portfolio/
 │   └── 03_gold_reporting_visualization.ipynb
 ├── data/
 │   └── sample/
+│       ├── README_data_samples.md
 │       ├── telemetry_sample.json
 │       └── sensores_limites_sample.csv
 ├── outputs/
