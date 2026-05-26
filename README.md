@@ -44,7 +44,9 @@ SenseTemp-Portfolio/
 │   ├── architecture_diaram_guide.md
 │   ├── functional_specifications.md
 │   └── repository_descriptions.md
+└── .gitignore
 └── README.md
+
 ```
 
 ## Notebooks included
