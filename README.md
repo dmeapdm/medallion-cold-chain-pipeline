@@ -30,11 +30,14 @@ SenseTemp-Portfolio/
 │       └── sensores_limites_sample.csv
 ├── outputs/
 │   └── sample/
+│       ├── README_output_sample.md
 │       ├── alert_summary_sample.csv
 │       └── gold_report_sample.csv
 ├── images/
-│   ├── architecture.png
-│   ├── gold_report_sample.png
+│   ├── Architecture_diagram_flow.png
+│   ├── Azure_Storage_Account.drawio.png
+│   ├── detailed_temperature_report_delta.png
+│   ├── read_&_display_data.png
 │   └── sensor_trend_sample.png
 ├── docs/
 │   ├── architecture_diaram_guide.md
